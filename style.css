@@ -1,0 +1,63 @@
+body{
+    background: #E5E5E5;
+}
+
+.rodape{
+    background-color: #0a3871;
+    text-align: center;
+}
+
+h1{
+padding-left: 80px;    
+padding-top: 60px;
+font-size: 60px;
+
+color: #0A3871;
+}
+
+.caixaesquerda{
+background: #FFFFFF;
+width: 400px;
+height: 944px;
+top: 40px;
+left: 1000px;
+border-radius: 32px;
+align-items:flex-start;
+}
+
+.cript{
+    display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 24px;
+position: static;
+width: 328px;
+height: 67px;
+left: 0px;
+top: 0px;
+background: #0A3871;
+border-radius: 24px;
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 0px 24px;
+
+}
+
+.des{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    position: static;
+    width: 328px;
+    height: 67px;
+    left: 352px;
+    top: 0px;
+    border-radius: 24px;
+    padding: 24px;
+    gap: 8px;
+    color: #D8DFE8;
+    border: 1px solid #0A3871;
+    box-sizing: border-box;
+
+}
