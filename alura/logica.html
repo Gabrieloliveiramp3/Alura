@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<meta charset=" UTF-8">
+
+
+    <script>
+        function pulaLinha() {
+            document.write("<br><hr><br>");
+        }
+
+        function mostra(frase) {
+            document.write(frase);
+            pulaLinha();
+        }
+        //Descrecente
+        // var contador = 20;
+
+
+        //     while (contador >=0){
+        //         mostra(contador);
+        //         contador = contador - 1;
+        //     }
+
+        //    
+//*******************************************************************************
+        // var loginCadastrado = "miau";
+        // var senhaCadastrada = "123";
+
+        // var maximoTentativa = 3;
+        // var tentativaAtual = 1;
+
+
+
+        // while (tentativaAtual <= maximoTentativa) {
+        //     var loginInformado = prompt("Informe seu Login:");
+        //     var senhaInformada = prompt("Informe sua senha");
+
+
+        //     if (loginCadastrado == loginInformado && senhaCadastrada == senhaInformada) {
+        //         alert("Bem-Vindo " +" "+ loginInformado);
+        //         tentativaAtual = maximoTentativa;
+        //         // acertou, então faço o gasto de todas as tentativas para sair do loop. Lá embaixo vai incrementar + 1! 
+
+        //     } else {
+        //         if (tentativaAtual == 3) {
+        //             alert("Numero permitido de tentativas foram ultrapassadas, iremos informar o adm");
+        //         } else {
+
+        //             alert("Lamento, a senha ou o login estão incorretos. Tente novamente");
+        //             tentativaAtual++;
+        //             // É o mesmo que tentativaAtual = tentativaAtual +1;
+        //         }
+        //     }
+        // }
+ //****************************************************************
+//  var idade = parseInt(prompt("Digite sua idade"));
+
+// while( isNaN(idade) ) {
+//     idade = parseInt(prompt("Digite sua idade"));    
+// }
+
+// alert(idade);
+//*********************************
+
+// var n1 =parseInt(prompt("Informe o primeiro numero que quer multiplicar")) 
+// var n2 = parseInt(prompt("Informe o segundo numero"))
+
+// alert ("O numero multiplicado é: "+ (n1*n2));
+
+//************************************************************
+//A estrutura do for() possui a mesma funcionalidade do while(), 
+//com a diferença de que ela é divida em três partes. A primeira é uma variável para inicializá-lo, 
+//a que será incrementada, o segundo contém a condição de repetição,
+// a última parte do for() é o incremento da variável 
+// for (let multiplicador =1; multiplicador <=10; multiplicador++) {
+
+//     alert("7 x" + multiplicador+ "=" + 7 * multiplicador);
+    
+// }
+
+// alert ("Tabuada de 7");
+
+//************************************************************
+// 
+//*****************************************************************
+
+
+var totalDeEventos = parseInt(prompt("Informe o total de eventos"));
+
+var contador = 1;
+var totalGastoComEventos = 0;
+
+while(contador <= totalDeEventos) {
+
+var gasto = parseFloat(prompt("Informe total gasto com evento"));
+totalGastoComEventos = totalGastoComEventos + gasto;
+contador++;
+}
+
+var media = totalGastoComEventos / totalDeEventos;
+
+mostra("A média de gastos é " + media);
+
+
+ </script>
+    </body>
+
+</html>

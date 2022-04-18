@@ -1,0 +1,26 @@
+<meta charset="UTF-8">
+
+<input/>
+<button>Exibir texto digitado</button>
+
+<script>
+        var input = document.querySelector("input");
+    input.focus();
+    
+    function texto() {
+        //Quando a função "texto" for chamada,
+        // ela passará como parâmetro da função alert o valor input.value.
+        //Não podemos passar simplesmente input, porque o input corresponde a TAG
+        //e queremos dessa TAG seu valor (value). Por isso passamos input.value.
+        alert(input.value);
+//comando abaixo faz com que a barra que fica o input depois da pesquisa, fique limpa.
+        input.value ="";
+        //abaixo faz com que a barra do input receba um foco.
+        input.focus ();
+    }
+
+    var button = document.querySelector("button");
+    button.onclick = texto;
+
+</script>
+
